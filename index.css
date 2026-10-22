@@ -1,0 +1,28 @@
+@import "@fontsource-variable/vazirmatn";
+@import "@fontsource-variable/plus-jakarta-sans";
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Vazirmatn Variable', 'Plus Jakarta Sans Variable', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  html, body, #root {
+    height: 100%;
+    overscroll-behavior: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+/* Hide scrollbars for slick iOS feel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ALI phone - iPhone 16 Pro Max Simulator",
+  "description": "Ultra-realistic iPhone 16 Pro Max simulation with custom app & product installation, Dynamic Island, Camera Control, Camera, Messages with ALI Intelligence, Safari, and full smartphone capabilities.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
